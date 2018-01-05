@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of the AppBarLayout -->
+    <dimen name="appBarLayoutHeight">120dp</dimen>
+
+    <!-- Elevation of the TabLayout -->
+    <dimen name="tabLayoutElevation">4dp</dimen>
+    <!-- Minimum width of each tab in the TabLayout -->
+    <dimen name="tabMinWidth">120dp</dimen>
+    <!-- Indicator height of the TabLayout -->
+    <dimen name="tabIndicatorHeight">3dp</dimen>
+
+    <!-- Height of the gradient white View -->
+    <dimen name="gradientHeight">64dp</dimen>
+
+    <!-- Height of the CardView -->
+    <dimen name="cardHeight">280dp</dimen>
+    <!-- Image height of the CardView -->
+    <dimen name="cardImageHeight">240dp</dimen>
+    <!-- Elevation of the CardView -->
+    <dimen name="cardElevation">2dp</dimen>
+    <!-- Radius of the CardView -->
+    <dimen name="cardCornerRadius">2dp</dimen>
+
+    <!-- The margin in the CardView -->
+    <dimen name="name_text_start_margin">16dp</dimen>
+    <dimen name="name_text_end_margin">8dp</dimen>
+    <dimen name="type_text_start_margin">8dp</dimen>
+    <dimen name="card_text_bottom_margin">8dp</dimen>
+    <dimen name="address_text_margin">8dp</dimen>
+    <!-- Horizontal margin of the CardView -->
+    <dimen name="card_horizontal_margin">8dp</dimen>
+    <!-- Vertical margin of the CardView -->
+    <dimen name="card_vertical_margin">4dp</dimen>
+
+    <!-- Text size in the CardView -->
+    <dimen name="name_text_size">24sp</dimen>
+    <dimen name="type_text_size">15sp</dimen>
+    <dimen name="address_text_size">16sp</dimen>
+
+    <!-- Vertical padding of the RecycleView -->
+    <dimen name="recycleView_vertical_padding">8dp</dimen>
+</resources>

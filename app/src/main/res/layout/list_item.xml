@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cardHeight"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/card_vertical_margin"
+        android:layout_marginLeft="@dimen/card_horizontal_margin"
+        android:layout_marginRight="@dimen/card_horizontal_margin"
+        android:layout_marginTop="@dimen/card_vertical_margin"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardElevation="@dimen/cardElevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cardImageHeight">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/place_image_description"
+                    android:scaleType="centerCrop" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/gradientHeight"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/gradient_white" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/card_text_bottom_margin"
+                    android:layout_marginEnd="@dimen/name_text_end_margin"
+                    android:layout_marginLeft="@dimen/name_text_start_margin"
+                    android:layout_marginRight="@dimen/name_text_end_margin"
+                    android:layout_marginStart="@dimen/name_text_start_margin"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/name_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/name"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/card_text_bottom_margin"
+                    android:layout_marginLeft="@dimen/type_text_start_margin"
+                    android:layout_marginStart="@dimen/type_text_start_margin"
+                    android:layout_toEndOf="@id/name"
+                    android:layout_toRightOf="@id/name"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/type_text_size"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/address_text_margin"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawableStart="@drawable/ic_location"
+                android:textSize="@dimen/address_text_size" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,102 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Fun GZ</string>
+    <!-- Label for the main activity. [CHAR LIMIT=20] -->
+    <string name="app_full_name">Fun Guangzhou</string>
+
+    <!-- Category name. [CHAR LIMIT=20] -->
+    <string name="category_spots">Top Spots</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_things">Things to Buy</string>
+
+    <!-- Image description. [CHAR LIMIT=20] -->
+    <string name="toolbar_image_description">This is an image displaced in toolbar.</string>
+    <string name="place_image_description">This is an image of the place.</string>
+
+    <!-- Place name list. -->
+    <string name="name_baiyun_mountain">Baiyun Mountain</string>
+    <string name="name_canton_tower">Canton Tower</string>
+    <string name="name_yuexiu_park">Yuexiu Park</string>
+    <string name="name_chime_long_paradise">Chime-Long Paradise</string>
+    <string name="name_shangxiajiu">Shangxiajiu</string>
+    <string name="name_redtory">Redtory</string>
+
+    <string name="name_bingsheng_taste">Bingsheng Taste</string>
+    <string name="name_diandude">Diandude</string>
+    <string name="name_yinji">Yinji</string>
+    <string name="name_huishijia">Huishijia</string>
+    <string name="name_nanxin_desserts">Nanxin Desserts</string>
+    <string name="name_totokui">To To Kui</string>
+
+    <string name="name_four_seasons">Four Seasons Hotel</string>
+    <string name="name_white_swan">White Swan Hotel</string>
+    <string name="name_oakwood_premier">Oakwood Premier</string>
+    <string name="name_doubletree">DoubleTree by Hilton</string>
+    <string name="name_seven_days">7 days Inn</string>
+    <string name="name_zhaohuaxishi">Zhaohuaxishi</string>
+    
+    <string name="name_ham_cookies">Ham Cookies</string>
+    <string name="name_cantonese_sausage">Cantonese Sausage</string>
+    <string name="name_dried_longan">Dried Longan</string>
+    <string name="name_canton_enamel">Canton Enamel</string>
+    <string name="name_canton_embroider">Canton Embroider</string>
+    <string name="name_rooster_olives">Rooster Olives</string>
+
+    <!-- Place type list. -->
+    <string name="type_scenery">Scenery</string>
+    <string name="type_theme_park">Theme Park</string>
+    <string name="type_commercial_street">Commercial Street</string>
+    <string name="type_museum">Museum</string>
+
+    <string name="type_cantonese">Cantonese</string>
+    <string name="type_dim_sum">Dim Sum</string>
+    <string name="type_high_tea">High Tea</string>
+
+    <string name="type_five_stars">Five Stars</string>
+    <string name="type_vacation_rentals">Vacation Rentals</string>
+    <string name="type_youth_hostel">Youth Hostels</string>
+    <string name="type_business">Business Hotels</string>
+    <string name="type_budget">Budget Hotels</string>
+
+    <string name="type_specialty">Specialty</string>
+    <string name="type_artworks">Artwork</string>
+    <string name="type_rooster_olives">The Rooster? Or the Olive?</string>
+
+    <!-- Place address list. -->
+    <string name="district_baiyun">, Baiyun, Guangzhou</string>
+    <string name="district_Haizhu">, Haizhu, Guangzhou</string>
+    <string name="district_yuexiu">, Yuexiu, Guangzhou</string>
+    <string name="district_panyu">, Panyu, Guangzhou</string>
+    <string name="district_liwan">, Liwan, Guangzhou</string>
+    <string name="district_tianhe">, Tianhe, Guangzhou</string>
+    <string name="district_huangpu">, Huangpu, Guangzhou</string>
+
+    <string name="address_baiyun_mountain">Baiyun Mountain</string>
+    <string name="address_canton_tower">222 Yuejiang W Rd</string>
+    <string name="address_yuexiu_park">988 Jiefang N Rd</string>
+    <string name="address_chime_long_paradise">Hanxi Street</string>
+    <string name="address_shangxiajiu">ShangXiaJiu</string>
+    <string name="address_redtory">128 Yuancun 4th Cross Rd</string>
+
+    <string name="address_bingsheng_taste">(Head Office) Binjiang Rd</string>
+    <string name="address_diandude">Beijing Rd</string>
+    <string name="address_yinji">345 Wenchang N Rd</string>
+    <string name="address_huishijia">172 Binjiang W Rd</string>
+    <string name="address_nanxin_desserts">47 Dishifu Rd</string>
+    <string name="address_totokui">22 Dishifu Rd</string>
+
+    <string name="address_four_seasons">5 Zhujiang W Rd</string>
+    <string name="address_white_swan">1 Shamian S St</string>
+    <string name="address_oakwood_premier">28 Tiyu E Rd</string>
+    <string name="address_doubletree">18 Shuixi Rd</string>
+    <string name="address_zhaohuaxishi">148 Qiaodonghuan Rd</string>
+    <string name="address_seven_days">157 Changfu Rd</string>
+
+    <string name="address_ham_cookies">To To Kui Store in Shangxiajiu Street.</string>
+    <string name="address_cantonese_sausage">Any LIKOFU stores throughout the city.</string>
+    <string name="address_dried_longan">Any supermarkets or farmers markets.</string>
+    <string name="address_canton_enamel">Cantonese culture gift shops.</string>
+    <string name="address_canton_embroider">Cantonese culture gift shops.</string>
+    <string name="address_rooster_olives">See if you can catch one in Shangxiajiu Street.</string>
+</resources>
