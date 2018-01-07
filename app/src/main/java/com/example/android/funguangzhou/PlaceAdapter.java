@@ -93,7 +93,7 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.MyViewHolder
         MyViewHolder(View view) {
             super(view);
 
-            cardView = view.findViewById(R.id.cardView);
+            cardView = view.findViewById(R.id.card_view);
             imageImageView = view.findViewById(R.id.image);
             nameTextView = view.findViewById(R.id.name);
             addressTextView = view.findViewById(R.id.address);

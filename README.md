@@ -15,12 +15,13 @@ The layout of the App is rich. CoordinatorLayout, AppBarLayout, CollapsingToolba
 **The hierarchy of each card:**  
 ![The hierarchy of each card](hierarchy_item.png)  
 
-The key words of this project in Java will be ViewPager & CategoryAdapter, TabLayout & OnTabSelectedListene, AppBarLayout & addOnOffsetChangedListener, Animation & AnimationListener, RecyclerView & setOnItemClickListener. The Code explanation will be on my [blog](https://www.jianshu.com/u/34c036c6b183), go check that out.  
+The key words of this project in Java will be ViewPager & CategoryAdapter, TabLayout & OnTabSelectedListene, AppBarLayout & addOnOffsetChangedListener, Animation & AnimationListener, RecyclerView & setOnItemClickListener. The Code explanation will be on my [blog](https://www.jianshu.com/p/d58ea44d7e1f), go check that out.  
 
 Note:  
 1. The images in the AppBar source: [German Kopytkov on Dribbble](https://dribbble.com/Kopytkov)
 2. The images in the Card are collected through Google Image Search.   
-If there are any copyright violation, please contact me and I'll take them down.  
+If there are any copyright violation, please contact me and I'll take them down. 
+3. The style of the app is largely based on Google Trips App. 
 
 This is a training project in Udacity's Android Basics Nanodegree program.  
 Check out this and other courses here: https://www.udacity.com/courses/all
